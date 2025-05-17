@@ -1,0 +1,74 @@
+<html>
+    <head> 
+        <title>El_Shaloprod</title>
+    </head>
+    <h1><strong><em><center>FORMULAIRE2</center> </em></strong></h1>
+<form method="post" action="Accueil.html"> 
+<fieldset> 
+    <legend>ETAT CIVIL</legend> <!-- Titre du fieldset --> 
+     
+    <label for="nom">NOM:</label>
+    <input type="text" name="nom" id="nom" tabindex="10" /><br>
+     
+    <label for="prenom">PRENOM:</label>
+    <input type="text" name="prenom" id="prenom" tabindex="20" /><br>
+     
+    <label for="domaine">DOMAINE:</label>
+    <input type="text" name="domaine" id="domaine" tabindex="30" /><br>
+
+    <label for="mail">Mail:</label>
+    <input type="text" name="mail" id="mail" tabindex="20" /><br>
+
+    <label for="sexe">SEXE:</label>
+    <select name="sexe"id="sexe">
+        <option value="masculin">Masculin</option>
+        <option value="féminin">FEMININ</option>
+    </select><br/>
+
+    <label for="contact">CONTACT:</label>
+    <input type="text" name="contact" id="contact" tabindex="20" /><br>
+    </fieldset> 
+     
+    <fieldset> 
+        <legend>Diplômes</legend> <!-- Titre du fieldset --> 
+         
+        <p> 
+        Faites un souhait que vous voudriez voir exaucé :<br /> 
+        <input type="checkbox" name="Diplômes" value="CEP" id="CEP" tabindex="40" /> <label for="CEP">CEP</label>
+        <input type="checkbox" name="Diplômes" value="BEPC" id="BEPC" tabindex="50" /> <label 
+        for="BEPC">BEPC</label>
+        <input type="checkbox" name="Diplômes" value="BAC" id="BAC" tabindex="60" /> <label 
+        for="BAC">BAC</label>
+        <input type="checkbox" name="Diplômes"   value="BTS" id="BTS" tabindex="70" /> <label 
+        for="BTS">BTS</label>
+        </p> 
+    </fieldset>
+        <p> 
+            <label for="votre adresse">votre adresse</label><br/>
+            <textarea name="adresse" id="adresse" cols="40" rows="4" tabindex="80"></textarea> 
+            </p> 
+
+     <fieldset> 
+                <legend>pays</legend> <!-- Titre du fieldset --> 
+                 
+                <p> 
+                Faites un souhait que vous voudriez voir exaucé :<br /> 
+                <input type="radio" name="pays" value="BENIN" id="riche" tabindex="40" /> <label for="BENIN">BENIN
+                </label>
+                <input type="radio" name="pays" value="SENEGAL" id="SENEGAL" tabindex="50" /> <label 
+                for="SENEGAL">SENEGAL</label>
+                <input type="radio" name="pays" value="FRANCE" id="FRANCE" tabindex="60" /> <label 
+                for="FRANCE"> FRANCE</label>
+                </p>
+     </fieldset>
+     <fieldset>
+        <legend>Les buttons</legend>
+                <p>
+                    <input type="submit" value="Envoyer" />
+                    <input type="reset" value="Rénitialiser"/>
+                    <button type="button" onclick="window.location.href='accueil.html'">Quitter</button>
+                </p>
+     </fieldset> 
+    </form> 
+</html>
+    <link rel="stylesheet" href="Accueil1.css">

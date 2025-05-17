@@ -1,0 +1,8 @@
+.table1
+{
+border-collapse: collapse;
+}
+.table1 td
+{
+border: 1px solid black;
+}

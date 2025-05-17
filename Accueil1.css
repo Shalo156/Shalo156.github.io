@@ -1,0 +1,36 @@
+table
+{
+border-collapse: collapse;
+}
+td
+{
+border: 2px solid black;
+padding:100px;
+}
+/* body */
+ /* {  */
+  /* background: url(klo.jpeg)  */
+ /* no-repeat center center /cover; */
+ /* }  */
+body 
+{
+   background: linear-gradient(to right,rgb(0, 255, 187),rgb(0, 229, 255)); 
+} 
+
+ .h
+ {
+   font-size: 40px;
+ }
+
+ .P
+{
+  font-size: 60px;
+}
+ .S
+{
+  position:absolute ;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+ 
